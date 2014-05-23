@@ -1,0 +1,31 @@
+{
+  "description": "Module to install Webmin and Usermin",
+  "author": "Panaman",
+  "version": "1.0.0",
+  "summary": "Webmin web-based interface for system administration",
+  "license": "Apache License, Version 2.0",
+  "project_page": "http://www.thunderpoop.com",
+  "dependencies": [
+    {
+      "version_requirement": ">=1.4.0",
+      "name": "puppetlabs/apt"
+    }
+  ],
+  "source": "https://github.com/panaman/puppet-webmin",
+  "types": [
+
+  ],
+  "name": "panaman-webmin",
+  "checksums": {
+    "files/usermin.aug": "21549f1afe39e6272e71f42155f22d65",
+    "manifests/webmin_pkg.pp": "20f88838c15331ecdd11d5d54c7296dc",
+    "README.md": "7050636952bd6c9d81395f0ea54c50eb",
+    "Modulefile": "304cbf81014cd8097d1ed3a99eabace1",
+    "manifests/params.pp": "4c8bb34adec146b04cfc21e945a4a81d",
+    "manifests/repo.pp": "8ed03fc18dd4696c42310e8c9be5f2da",
+    "manifests/acl.pp": "7fa6d2cc5d969ba21c97b831f55f6979",
+    "manifests/usermin_pkg.pp": "57afccf14449b9ec78e8cc1f82933e69",
+    "manifests/init.pp": "d868c19ef3a9048981ceacf8bc1270f3",
+    "files/test_usermin.aug": "ebeba700c2cd0b0245d00ecd45cd2823"
+  }
+}

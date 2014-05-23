@@ -9,6 +9,8 @@
 
 Далее делаем ``vagrant up``, заходим в Webmin, находим раздел Apache и создаем нужную конфигурацию.
 
+Если в Webmin нет раздела Servers -> Apache Webserver, нажимаем Refresh Modules.
+
 ``/var/www`` виртуальной машины соотвествует ``./www`` хоста.
 
 ### Webmin

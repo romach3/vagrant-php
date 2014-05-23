@@ -7,6 +7,10 @@
 
 ``#romach3_config.vm.network :forwarded_port, guest: 80, host: 80, auto_correct: true``
 
+Далее делаем ``vagrant up``, заходим в Webmin, находим раздел Apache и создаем нужную конфигурацию.
+
+``/var/www`` виртуальной машины соотвествует ``./www`` хоста.
+
 ### Webmin
 
 [Webmin](http://www.webmin.com/)
